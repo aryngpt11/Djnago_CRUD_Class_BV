@@ -2,8 +2,8 @@ from django.shortcuts import render
 import io
 from rest_framework.parsers import JSONParser
 from rest_framework.renderers import JSONRenderer
-from operation.models import Student
-from operation.serializers import StudentSerializer
+from api.models import Student
+from api.serializers import StudentSerializer
 from django.http import HttpResponse,JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
